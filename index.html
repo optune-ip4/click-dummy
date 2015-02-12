@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Bookingplattform</title>
+  <meta name="description" content="FHNW">
+  <meta name="author" content="FHNW">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/nav-styles.css"> 
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" href="css/nav-ie.css">
+  <![endif]-->
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="#">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<div class="wrapper light-blue">  
+	    <header>
+				<div class="container">
+	      	<a href="#account" class="logo" title="Create Account" data-scroll>Nightbook</a>
+	     	 	<nav class="nav-collapse">
+	        	<ul>
+	          	<li class="menu-item active"><a title="Create Account" href="#account" data-scroll>&#9679;</a></li>
+	          	<li class="menu-item"><a title="Artist Profile" href="#artist" data-scroll>&#9679;</a></li>
+	          	<li class="menu-item"><a title="Search" href="#search" data-scroll>&#9679;</a></li>
+	          	<li class="menu-item"><a title="Request" href="#request" data-scroll>&#9679;</a></li>
+							<li class="menu-item"><a title="Message" href="#message" data-scroll>&#9679;</a></li>
+	        	</ul>
+	      	</nav>
+				</div>
+	    </header>
+			<section id="account" class="container">
+        <h1>Create Account</h1>	
+				<div class="row">
+					<div class="twelve column">
+    				<a class="button button-primary" href="#">Sign up with Soundcloud</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="twelve column">
+						<a class="button button-primary" href="#">Sign up with Facebook</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="twelve column">
+						<hr class="signup-email" />
+					</div>
+				</div>
+				<form id="account">
+				<div class="row">
+					<div class="three columns">
+						<label for="emailinput">Email</label>
+					</div>
+					<div class="six columns">
+						<input class="u-full-width" type="email" id="emailinput">
+					</div>
+				</div>
+				<div class="row">
+					<div class="three columns">
+						<label for="pwinput">Password</label>
+					</div>
+					<div class="six columns">
+						<input class="u-full-width" type="password" id="pwinput">
+					</div>
+				</div>
+				<div class="row">
+					<div class="three columns">
+						<label for="pwconfirm">Password Confirmation</label>
+					</div>
+					<div class="six columns">
+						<input class="u-full-width" type="password" id="pwconfirm">
+					</div>
+				</div>
+				<div class="row">
+					<input class="button-primary" type="submit" value="Create Account">
+				</div>
+				</form>
+  		</section>
+			<hr class="separator" />
+			
+	    <section id="artist" class="container">
+	      <h1>Your Artistprofile</h1>
+				
+				<form id="profile">
+				<div class="row">
+					<div class="three columns">
+						<label for="artistname">Artist Name</label>
+					</div>
+					<div class="six columns">
+						<input class="u-full-width" type="text" id="artistname">
+					</div>
+				</div>
+				<div class="row">
+					<div class="three columns">
+						<label for="hometown">Hometown</label>
+					</div>
+					<div class="six columns">
+						<select class="u-full-width" id="hometown">
+						        <option value=""></option>
+										<option value="Bern">Bern</option>
+						        <option value="Zürich">Zürich</option>
+						        <option value="Basel">Basel</option>
+						</select>
+					</div>
+				</div>
+				<div class="row">
+					<div class="three columns">
+						<label for="genres">Genres</label>
+					</div>
+					<div class="six columns">
+						<input class="u-full-width" type="text" id="genres">
+					</div>
+				</div>
+				<div class="row">
+					<div class="three columns">
+						<label for="bio">Short Bio</label>
+					</div>
+					<div class="six columns">
+						<textarea class="u-full-width" id="bio"></textarea>
+					</div>
+				</div>
+				<div class="row">
+					<div class="three columns">
+						<label for="labels">Labels</label>
+					</div>
+					<div class="six columns">
+						<input class="u-full-width" type="text" id="labels">
+					</div>
+				</div>
+				<div class="row">
+					<div class="three columns">
+						<label for="influence">Influenced by</label>
+					</div>
+					<div class="six columns">
+						<input class="u-full-width" type="text" id="influence">
+					</div>
+				</div>
+				<div class="row">
+					<input class="button-primary" type="submit" value="Submit Proifle">
+				</div>
+				</form>
+				
+	    </section>
+			<hr class="separator" />
+			
+	    <section id="search" class="container">
+	      <form id="searchform">
+					<div class="row">
+						<div class="three columns">
+							<input class="u-full-width" type="text" id="searchbox" placeholder="Search">
+						</div>
+						<div class="two columns">
+							<select class="u-full-width" id="month">
+							        <option value="">M</option>
+											<option value="1">1</option>
+							        <option value="2">2</option>
+							        <option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+							</select>
+						</div>
+						<div class="two columns">
+							<select class="u-full-width" id="day">
+							        <option value="">D</option>
+											<option value="1">1</option>
+							        <option value="2">2</option>
+							        <option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+							</select>
+						</div>
+						<div class="two columns">
+							<select class="u-full-width" id="year">
+							        <option value="">Y</option>
+											<option value="1994">1994</option>
+							        <option value="1993">1993</option>
+							        <option value="1992">1992</option>
+											<option value="1991">1991</option>
+											<option value="1990">1990</option>
+							</select>
+						</div>
+						<div class="three columns">
+							<input class="u-full-width" type="text" id="searchcategories">
+						</div>
+					</div>
+				</form>
+				<div class="row">
+					<div class="twelve columns">
+						<div class="square"></div>
+						<div class="rectangle"></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="twelve columns">
+						<div class="square"></div>
+						<div class="rectangle"></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="twelve columns">
+						<div class="square"></div>
+						<div class="rectangle"></div>
+					</div>
+				</div>
+	    </section>
+			<hr class="separator" />
+			
+	    <section id="request" class="container">
+				<div class="row">
+					<div class="twelve columns">
+						<div class="square">
+							<button class="button-primary">Request Booking</button>
+						</div>
+						<div class="rectangle"></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="map four columns">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43578.98769812332!2d7.435811288403311!3d46.948195801716814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e39c0d43a1b77%3A0xcb555ffe0457659a!2sBern!5e0!3m2!1sen!2sch!4v1423533859624" width="100%" height="300" frameborder="0" style="border:0"></iframe>
+					</div>
+					<div class="eight columns">
+						<div class="location">
+							<div class="date"><p>20<br />Dec</p></div>
+							<div class="comment"></div>
+						</div>
+						<div class="location">
+							<div class="date"><p>31<br />Dec</p></div>
+							<div class="comment"></div>
+						</div>
+						<div class="location">
+							<div class="date"><p>04<br />Jan</p></div>
+							<div class="comment"></div>
+						</div>
+					</div>
+				</div>
+	    </section>
+			<hr class="separator" />
+			
+	    <section id="message" class="container">
+	      <form>
+	      	<div class="row">
+	      		<div class="eleven columns right">
+	      			<input class="u-full-width" type="text" id="personalmessage" placeholder="Personal Message">
+	      		</div>
+	      	</div>
+	      </form>
+				<p class="time">12:15 PM</p>
+				<div class="row">
+					<div class="one column">
+						<div class="booker">
+						</div>
+						<p class="labelbooker">Booker</p>
+					</div>
+					<div class="eleven columns speech">
+						<div class="message"></div>
+					</div>
+				</div>
+				
+				<p class="time">12:10 PM</p>
+				<div class="row">
+					<div class="one column">
+						<div class="booker">
+						</div>
+						<p class="labelbooker">Booker</p>
+					</div>
+					<div class="eleven columns speech">
+						<div class="image"></div>
+					</div>
+				</div>
+				<p class="time">12:05 PM</p>
+				<div class="row">
+					<div class="eleven columns response right">
+						<div class="message right"></div>
+					</div>
+				</div>
+	    </section>
+			<hr class="separator" />
+    </div>
+
+  <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<script src="js/responsive-nav.js"></script>
+  <script src="js/fastclick.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/fixed-responsive-nav.js"></script>
+		
+</body>
+</html>

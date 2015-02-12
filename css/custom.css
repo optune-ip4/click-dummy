@@ -1,0 +1,222 @@
+/* nav */
+.logo {
+    color: #0F689A;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+section.container {
+    padding-top: 100px;
+    border-bottom: none;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.nav-collapse a {
+    border-left: none;
+    background: none;
+    font-size: 3.0rem;
+    padding: 0;
+    width: 80px;
+    height: 55px;
+    line-height: 55px;
+    color: #69ADDB;
+}
+
+.nav-collapse a:active, .nav-collapse .active a, .nav-collapse a:hover {
+    background: #9EC9ED;
+    color: #0F689A;
+    padding: 0 0.67em;
+    font-size: 4.0rem;
+    line-height: 55px;
+}
+
+header {
+    border-bottom: 1px solid #aaa;
+    background: none;
+    padding: 10px 0;
+    background-color: #C2DBEE;
+}
+
+/* skeleton */
+.button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+    background-color: #69ADDB;
+    border-color: #69ADDB;
+    font-weight: normal;
+}
+
+.button.button-primary:hover, button.button-primary:hover, input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover, .button.button-primary:focus, button.button-primary:focus, input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
+    background-color: #0F689A;
+    border-color: #0F689A;
+}
+
+/* own */
+body {
+    color: #69ADDB;
+}
+
+.light-blue {
+    background-color: #C2DBEE;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #0F689A;
+    font-weight: normal;
+}
+
+#account h1 {
+    margin-bottom: 1em;
+}
+
+#account .button {
+    width: 245px;
+}
+
+#account .signup-email {
+    margin: 2em auto 0 auto;
+    padding: 0;
+    border: none;
+    border-top: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    width: 80%;
+}
+
+#account .signup-email:after {
+    content: "Or signup with your email";
+    display: inline-block;
+    position:relative;
+    top: -0.8em;
+    padding: 0 0.25em;
+    background: #C2DBEE;
+    color: #69ADDB;
+}
+
+#account form {
+    margin-top: 4em;
+}
+
+#account form label, #artist form label {
+    float: right;
+    font-weight: normal;
+}
+
+.separator {
+    border-bottom: 30px solid #69ADDB;
+}
+
+.square {
+    height: 165px;
+    background-color: #69ADDB;
+    width: 25%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.rectangle {
+    height: 165px;
+    background-color: #9EC9ED;
+    width: 75%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#request .square {
+    height: 200px;
+    width: 30%;
+}
+
+#request .rectangle {
+    height: 200px;
+    width: 70%;
+}
+
+#request button {
+    background-color: #9EC9ED;
+    border-color: #9EC9ED;
+    margin-top: 145px;
+}
+
+#request .date {
+    background-color: #69ADDB;
+    width: 20%;
+    height: 92px;
+    float: left;
+}
+
+#request .date p {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: normal;
+    color: #fff;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+#request .comment {
+    width: 80%;
+    background-color: #9EC9ED;
+    float: left;
+    height:92px;
+}
+
+#request .location {
+    width: 100%;
+    float: left;
+    margin-bottom: 12px;
+}
+
+#message .right {
+    float: right;
+}
+
+#message .booker {
+    width: 30px;
+    height: 30px;
+    background-color: #0F689A;
+    margin-top: 35px;
+}
+
+#message .time {
+    margin: 0 auto;
+    color: #fff;
+    font-weight: normal;
+}
+
+#message .message {
+    background-color: #9EC9ED;
+    width: 50%;
+    height: 100px;
+    margin-left: 10px;
+}
+
+#message .message.right {
+    margin-right: 10px;
+}
+
+#message .speech:before {
+    content: '\25C0';
+    float: left;
+    margin-top: 40px;
+    color: #9EC9ED;
+}
+
+#message .message.right:after {
+    content: '\25b6';
+    float: right;
+    margin-top: 40px;
+    color: #9EC9ED;
+}
+
+#message .labelbooker {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+#message .image {
+    background-color: #9EC9ED;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
